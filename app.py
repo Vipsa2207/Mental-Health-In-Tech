@@ -80,12 +80,22 @@ st.markdown(f"""
     text-transform: uppercase; margin-bottom: 6px; margin-top: 4px;
 }}
 
-.stMultiSelect [data-baseweb="tag"] {{
-    background-color: rgba(212,166,86,0.15) !important;
+.stMultiSelect span[data-baseweb="tag"],
+.stMultiSelect div[data-baseweb="tag"],
+span[data-baseweb="tag"],
+div[data-baseweb="tag"] {{
+    background-color: rgba(212,166,86,0.18) !important;
     border: 1px solid {GOLD} !important;
+    color: {GOLD} !important;
 }}
-.stMultiSelect [data-baseweb="tag"] span {{ color: {GOLD} !important; }}
-.stMultiSelect [data-baseweb="tag"] svg {{ fill: {GOLD} !important; }}
+.stMultiSelect span[data-baseweb="tag"] span,
+.stMultiSelect div[data-baseweb="tag"] span,
+span[data-baseweb="tag"] span,
+div[data-baseweb="tag"] span {{ color: {GOLD} !important; }}
+.stMultiSelect span[data-baseweb="tag"] svg,
+.stMultiSelect div[data-baseweb="tag"] svg,
+span[data-baseweb="tag"] svg,
+div[data-baseweb="tag"] svg {{ fill: {GOLD} !important; }}
 
 .stTabs [data-baseweb="tab-list"] {{
     gap: 4px; background-color: {CARD}; padding: 6px; border-radius: 10px;
