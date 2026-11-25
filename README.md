@@ -10,6 +10,8 @@ Project 3 of 8 · Built during my Data Analyst Internship at Labmentix (Aug–No
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?logo=plotly&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0)
 
+![Dashboard](docs/dashboard.png)
+
 ## The business question
 
 Attitudes to mental health at work vary a lot. Companies want to support employees, but they don't know what actually matters: benefits, company size, remote work, or workplace culture. Without that, they risk spending on the wrong things.
