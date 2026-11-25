@@ -1,5 +1,7 @@
 # Mind at Work — Mental Health in the Tech Industry
 
+**Live app:** https://mental-health-in-tech-mind-at-work.streamlit.app/
+
 An exploratory data analysis (EDA) of the 2014 OSMI Mental Health in Tech Survey, with an interactive Streamlit dashboard. It asks which workplace factors are linked to tech employees seeking mental health treatment.
 
 Project 3 of 8 · Built during my Data Analyst Internship at Labmentix (Aug–Nov 2026).
